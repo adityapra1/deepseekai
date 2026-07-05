@@ -9,7 +9,7 @@ import promptRoutes from "./routes/promt.route.js";
 
 dotenv.config();
 const app = express();
-const port = process.env.PORT || 4002; // Ensure this matches your Postman URL
+const port = process.env.PORT || BACKEND_PORT; // Ensure this matches your Postman URL
 const MONGO_URL = process.env.MONGO_URL;
 
 // Middleware
